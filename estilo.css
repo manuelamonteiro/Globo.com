@@ -1,14 +1,19 @@
 body {
   font-family: "Encode Sans", sans-serif;
-  width: 1250px;
-
   margin: auto;
+}
+
+.topo1,
+.topo2 {
+  margin: 0 auto;
+  width: 1250px;
 }
 
 .topo1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 80px;
 }
 
 .topo1 img {
@@ -19,8 +24,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
-  font-family: "Encode Sans";
+  height: 80px;
   font-style: normal;
   font-weight: 700;
   font-size: 19px;
@@ -29,9 +33,6 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: -0.02em;
-
-  border-top: 1px #f5f6f7 solid;
-  border-bottom: 1px #f5f6f7 solid;
 }
 
 .link-topo1 {
@@ -39,11 +40,9 @@ body {
   height: 40px;
   left: 140px;
   top: 81px;
-
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #c3170c;
 }
 
@@ -52,11 +51,9 @@ body {
   height: 40px;
   left: 231px;
   top: 81px;
-
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #1e4b9b;
 }
 
@@ -65,11 +62,9 @@ body {
   height: 40px;
   left: 375px;
   top: 81px;
-
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #006766;
 }
 
@@ -78,11 +73,9 @@ body {
   height: 40px;
   left: 501px;
   top: 81px;
-
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #07aa47;
 }
 
@@ -91,11 +84,9 @@ body {
   height: 40px;
   left: 603px;
   top: 80px;
-
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #e3662b;
 }
 
@@ -104,11 +95,9 @@ body {
   height: 40px;
   left: 733px;
   top: 80px;
-
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #fb0735;
 }
 
@@ -117,11 +106,9 @@ body {
   height: 40px;
   left: 902px;
   top: 80px;
-
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #ff75bb;
 }
 
@@ -130,11 +117,9 @@ body {
   height: 40px;
   left: 1033px;
   top: 80px;
-
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #ec7d00;
 }
 
@@ -143,11 +128,9 @@ body {
   height: 40px;
   left: 1176px;
   top: 80px;
-
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #323333;
 }
 
@@ -156,23 +139,26 @@ body {
   height: 40px;
   left: 1312px;
   top: 80px;
-
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #a81d83;
 }
 
+.linha-horizontal {
+  background-color: #e5e5e5;
+  height: 1px;
+}
+
 .noticias {
+  width: 1250px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-
+  justify-content: space-around;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .noticias a {
@@ -186,7 +172,7 @@ body {
 
 .noticia-principal {
   margin-top: -10px;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 
 .noticia-principal h1 {
@@ -194,20 +180,14 @@ body {
   height: 201px;
   left: 151px;
   top: 160px;
-
-  font-family: "Encode Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 52px;
   line-height: 67px;
-  /* or 129% */
-
   letter-spacing: -0.01em;
-
   color: #c4160c;
-
-  margin-top: -10px;
-  margin-bottom: 30px;
+  margin-top: -50px;
+  margin-bottom: 25px;
 }
 
 .noticia-principal h2 {
@@ -215,16 +195,12 @@ body {
   height: 25px;
   left: 153px;
   top: 422px;
-
-  font-family: "Encode Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   letter-spacing: -0.01em;
-
   color: #303134;
-
   margin-top: -10px;
   margin-bottom: 15px;
 }
@@ -233,55 +209,40 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  margin-top: 15px;
-  margin-bottom: 30px;
-
-  border-top: 1px #f5f6f7 solid;
-
-  padding-top: 25px;
+  margin-top: 5px;
+  padding-top: 20px;
+  border-top: 1px #e5e5e5 solid;
 }
 
 .noticias-secundarias h1 {
-  font-family: "Encode Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
   letter-spacing: -0.045em;
-
   color: #2f3134;
-
   margin-top: -10px;
   margin-bottom: 15px;
 }
 
 .noticias-secundarias h2 {
-  font-family: "Encode Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.02em;
-
   color: #c4170c;
-
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .noticias-secundarias h3 {
-  font-family: "Encode Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  /* or 136% */
-
   letter-spacing: -0.048em;
-
   color: #2f3134;
-
   margin-top: -10px;
   margin-bottom: 15px;
 }
@@ -417,7 +378,6 @@ body {
   height: 110px;
   left: 154px;
   top: 498px;
-
   border-radius: 12px;
 }
 
@@ -426,7 +386,6 @@ body {
   height: 110px;
   left: 371px;
   top: 498px;
-
   border-radius: 12px;
 }
 
@@ -435,7 +394,6 @@ body {
   height: 110px;
   left: 588px;
   top: 498px;
-
   border-radius: 12px;
 }
 
@@ -444,14 +402,10 @@ body {
   flex-direction: column;
   align-items: space-between;
   justify-content: center;
-
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 20px;
-  margin-left: 20px;
-
-  border-left: 1px #f5f6f7 solid;
-  padding-left: 30px;
+  border-left: 1px #e5e5e5 solid;
+  padding-left: 25px;
 }
 
 .noticias2 a {
@@ -464,15 +418,12 @@ body {
 }
 
 .noticias2 h1 {
-  font-family: "Encode Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
   letter-spacing: -0.045em;
-
   color: #2f3134;
-
   margin-top: -15px;
   margin-bottom: 20px;
 }
@@ -483,25 +434,18 @@ body {
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.02em;
-
   color: #16ae54;
-
   margin-top: 10px;
   margin-bottom: 20px;
 }
 
 .noticias2 h3 {
-  font-family: "Encode Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  /* or 136% */
-
   letter-spacing: -0.048em;
-
   color: #2f3134;
-
   margin-top: -15px;
   margin-bottom: 20px;
 }
@@ -511,14 +455,10 @@ body {
   flex-direction: column;
   align-items: space-between;
   justify-content: center;
-
-  margin-top: 10px;
+  margin-top: -35px;
   margin-bottom: 10px;
-  margin-right: 20px;
-  margin-left: 20px;
-
-  border-left: 1px #f5f6f7 solid;
-  padding-left: 30px;
+  border-left: 1px #e5e5e5 solid;
+  padding-left: 25px;
 }
 
 .noticias3 a {
@@ -531,15 +471,12 @@ body {
 }
 
 .noticias3 h1 {
-  font-family: "Encode Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
   letter-spacing: -0.045em;
-
   color: #2f3134;
-
   margin-top: -15px;
   margin-bottom: 20px;
 }
@@ -550,25 +487,18 @@ body {
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.02em;
-
   color: #ec8006;
-
   margin-top: 10px;
   margin-bottom: 20px;
 }
 
 .noticias3 h3 {
-  font-family: "Encode Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  /* or 136% */
-
   letter-spacing: -0.048em;
-
   color: #2f3134;
-
   margin-top: -15px;
   margin-bottom: 20px;
 }
@@ -683,7 +613,6 @@ body {
   height: 128px;
   left: 853px;
   top: 162px;
-
   border-radius: 12px;
 }
 
@@ -692,7 +621,6 @@ body {
   height: 128px;
   left: 853px;
   top: 507px;
-
   border-radius: 12px;
 }
 
@@ -701,7 +629,6 @@ body {
   height: 128px;
   left: 853px;
   top: 797px;
-
   border-radius: 12px;
 }
 
@@ -710,7 +637,6 @@ body {
   height: 128px;
   left: 1165px;
   top: 162px;
-
   border-radius: 12px;
 }
 
@@ -719,7 +645,6 @@ body {
   height: 128px;
   left: 1165px;
   top: 433px;
-
   border-radius: 12px;
 }
 
@@ -728,6 +653,5 @@ body {
   height: 128px;
   left: 1165px;
   top: 761px;
-
   border-radius: 12px;
 }
